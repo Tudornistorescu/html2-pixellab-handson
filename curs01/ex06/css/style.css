@@ -1,0 +1,13 @@
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.square {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: turquoise;
+}
