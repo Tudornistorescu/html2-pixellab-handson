@@ -62,21 +62,54 @@ body {
   }
 }
 
-/* de la 1200px in sus */
+@media (min-width: 992px) {
+  .box-1 {
+    display: none;
+  }
 
-@media (min-width: 1200px) {
-  .box-5 {
+  /* de la 1200px in sus */
+
+  @media (min-width: 1200px) {
+    .box-5 {
+      display: none;
+    }
+  }
+
+  /* de la 600px in sus pana la 1200px */
+  @media (min-width: 600px) and (max-width: 1200px) {
+    .body > h1 {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .box-1 {
     display: none;
   }
 }
 
-.body > h1 {
-  display: none;
+@media (max-width: 992px) {
+  .box-2 {
+    color: white;
+    border-color: yellow;
+  }
 }
 
-/* de la 600px in sus pana la 1200px */
+@media (max-width: 576px) {
+  body {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body > h3 {
+    color: red;
+  }
+}
+
 @media (min-width: 600px) and (max-width: 1200px) {
-  .body > h1 {
-    display: block;
+  body > h1 {
+    display: block; /* Afișează h1 între 600px și 1200px */
   }
 }
