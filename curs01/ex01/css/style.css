@@ -108,8 +108,13 @@ body {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+h1 {
+  display: none; /* Ascunde h1 pentru toate rezoluțiile */
+}
+
+/* Media query pentru ecrane cu lățimea între 600px și 1200px */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
   body > h1 {
-    display: block; /* Afișează h1 între 600px și 1200px */
+    display: block; /* Afișează h1 doar în intervalul specificat */
   }
 }
