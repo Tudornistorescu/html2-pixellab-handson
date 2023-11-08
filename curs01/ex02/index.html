@@ -9,11 +9,45 @@
     rel="stylesheet"
     href="https://tab.pixellab.ro/pixeltab.css"
   >
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
 </head>
 
 <body>
 
+  <picture>
+    <source
+      media="(max-width: 576px)"
+      srcset="images/w150.png"
+    >
+    <source
+      media="(max-width: 768px)"
+      srcset="images/w420.png"
+    >
+    <source
+      media="(max-width: 992px)"
+      srcset="images/w820.png"
+    >
+    <img
+      src="images/w1900.png"
+      alt="imagine de 1900"
+    >
+  </picture>
 
+  <picture>
+
+    <source
+      srcset="images/w420.png"
+      media="(max-width: 420px)"
+    >
+    <img
+      src="images/w420.png"
+      alt="Imagine implicită"
+    >
+  </picture>
 
   <div
     class="pixeltab-host"
