@@ -20,4 +20,11 @@ ul a:visited {
   margin: 0 auto;
 }
 
-/*# sourceMappingURL=style.css.map */
+body.reverse .paragraphs .para {
+  width: 50%;
+}
+
+body.reverse .paragraphs .para-short {
+  width: 100%;
+  padding: 10px 20px;
+}
