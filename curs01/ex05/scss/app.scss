@@ -24,3 +24,45 @@ ul {
   width: 50%;
   margin: 0 auto;
 }
+
+body.reverse {
+  .paragraphs .para-short {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+
+$color-magenta: #ff00ff;
+$color-lightcoral: #f08080;
+$color-pink: #ffc0cb;
+
+body.reverse {
+  &.all-visited {
+    a:visited {
+      text-decoration: line-through;
+    }
+  }
+
+  .paragraphs {
+    .para-short {
+      width: 100%;
+      padding: 10px 20px;
+      background-color: $color-magenta;
+      color: $color-lightcoral;
+
+      a {
+        &:hover {
+          color: $color-magenta;
+        }
+
+        &:active {
+          color: $color-pink;
+        }
+
+        &:visited {
+          color: $color-lightcoral;
+        }
+      }
+    }
+  }
+}

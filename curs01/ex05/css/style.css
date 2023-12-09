@@ -27,4 +27,14 @@ body.reverse .paragraphs .para {
 body.reverse .paragraphs .para-short {
   width: 100%;
   padding: 10px 20px;
+
+  a:hover {
+    color: magenta;
+  }
+  a:active {
+    color: pink;
+  }
+  a:visited {
+    color: lightcoral;
+  }
 }
