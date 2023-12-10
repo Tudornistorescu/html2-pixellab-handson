@@ -1,7 +1,10 @@
 .squares {
   width: 80%;
   border: 1px solid black;
+  padding: 10px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .square {
@@ -9,5 +12,11 @@
   width: 200px;
   height: 200px;
   border: 1px solid black;
-  background-color: turquoise;
+  background: turquoise;
 }
+
+.square-magenta {
+  background: magenta;
+}
+
+/*# sourceMappingURL=style.css.map */
