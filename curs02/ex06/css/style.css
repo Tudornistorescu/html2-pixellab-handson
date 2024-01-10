@@ -51,3 +51,19 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.p-xs {
+  padding: 4px;
+}
+
+.p-sm {
+  padding: 8px;
+}
+
+.p-md {
+  padding: 16px;
+}
+
+.p-lg {
+  padding: 32px;
+}
