@@ -1,0 +1,17 @@
+.bar-01 {
+  animation: bar-01 10s ease-in;
+}
+
+@keyframes bar-01 {
+  0% {
+    width: 50px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.bar-02 {
+  animation: bar-02 8s linear;
+}
