@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.animated-div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation: animatieDiv 10s ease-out;
+}
+
+@keyframes animatieDiv {
+  0% {
+    transform: translateY(calc(100vh - 100px));
+  }
+  25% {
+    transform: translateX(calc(100vw - 100px));
+  }
+  50% {
+    transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
