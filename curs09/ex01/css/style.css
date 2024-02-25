@@ -37,3 +37,41 @@
   color: #fff;
 }
 /* please do not modify this code */
+
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-01 {
+  flex-direction: row-reverse;
+}
+
+.flex-container-02 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-03 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+.flex-container-05 {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-container-06 {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
