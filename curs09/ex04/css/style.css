@@ -41,3 +41,35 @@
   color: #fff;
 }
 /* please do not modify this code */
+
+.flex-container-01 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-item {
+  align-self: center;
+}
+
+.flex-container-02 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.flex-container-03 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-04 {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.flex-container-05 {
+  justify-content: space-between;
+  align-items: center;
+}
